@@ -1,0 +1,24 @@
+/* navigation */
+
+.navigation {
+  display: inline;
+}
+
+.navigation__item {
+  margin: 10px 0;
+  display: inline-block;
+  margin: 40px;
+  font-size: 1.1em;
+}
+
+.navigation__list {
+  background-color: rgb(33, 33, 93);
+  list-style: none;
+  text-align: center;
+}
+
+.navigation__link {
+  color: white;
+  text-decoration: solid;
+  
+}

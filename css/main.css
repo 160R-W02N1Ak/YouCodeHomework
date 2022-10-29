@@ -1,0 +1,79 @@
+/* main */
+.main {
+  color: rgb(33, 33, 93);
+  padding: 20px;
+  font-size: large;
+  line-height: 2em;
+}
+
+.main__h2 {
+  font-weight: bold; 
+  
+}
+
+/* sectionImage */
+.main__image {
+  width: 100%;	
+  max-height: 1000px;	
+  background-color: #FFFFFF;	
+  position: relative;	
+  box-shadow: 17px -8px 5px 0px #B2A4B2;
+  margin: 20px 0px 20px 0px;
+}
+
+/* sectionTable */
+
+.main__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.main__tableCell {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main__caption {
+  caption-side: bottom;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.main__tableHeader {
+  background-color: rgb(33, 33, 93);
+  color: white;
+  font-weight: normal;
+}
+
+.main__tableRow:nth-child(even) {
+  background-color: #eee;
+}
+
+.main__tableRow:hover {
+  background-color: #ddd;
+}
+
+.main__container {
+  overflow-x: auto;
+}
+
+/* sectionSuprise */
+.main__sectionSuprise {
+  color: rgb(33, 33, 93);
+  text-align: center;
+}
+
+.main__h3 {
+  text-decoration: underline;
+}
+
+.main__button {
+  height: 100px;
+  width: 500px;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  background-color: rgb(33, 33, 93);
+}
