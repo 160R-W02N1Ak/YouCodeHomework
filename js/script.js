@@ -7,14 +7,17 @@
     if (button.innerText === "Sprawdź naszą niespodziankę na wyjazd !") {
       button.innerText = "Darmowe piwo marki Harnaś przez cały wyjzazd dla kazdego uczestnika ! "
     }
-
   };
 
   const button = document.querySelector(".main__button");
-  button.addEventListener("click", onChangeTextClick);
 
-  welcome();
+  const init = () => {
+    button.addEventListener("click", onChangeTextClick);
 
+    welcome();
+  };
+
+  init();
 };
 
 
